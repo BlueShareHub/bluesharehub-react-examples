@@ -50,9 +50,9 @@ npm start
 | `onclick`             | onClick 예제   | `src/examples/ClickExamples.jsx`     | [https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/](https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/) |
 | `onchange`            | onChange 예제  | `src/examples/ChangeExamples.jsx`    | ↑ 동일                                                                                                                                                 |
 | `onsubmit`            | onSubmit 예제  | `src/examples/SubmitExamples.jsx`    | ↑ 동일                                                                                                                                                 |
-| `window-size-watcher` | 창 크기 추적      | `src/examples/WindowSizeWatcher.jsx` | (참고) useEffect 글                                                                                                                                     |
-| `lifecycle-log`       | 생명주기 로그      | `src/examples/LifecycleLogDemo.jsx`  | [https://bluesharehub.com/react-useeffect-dependency-lifecycle/](https://bluesharehub.com/react-useeffect-dependency-lifecycle/)                     |
-| `users-fetcher`       | API 데이터 가져오기 | `src/examples/UsersFetcher.jsx`      | [https://bluesharehub.com/react-useeffect-dependency-lifecycle/](https://bluesharehub.com/react-useeffect-dependency-lifecycle/)                     |
+| `window-size-watcher` | 창 크기 추적      | `src/examples/WindowSizeWatcher.jsx` | [https://bluesharehub.com/react-useeffect-dependency-lifecycle/](https://bluesharehub.com/react-useeffect-dependency-lifecycle/)                     |
+| `lifecycle-log`       | 생명주기 로그      | `src/examples/LifecycleLogDemo.jsx`  | ↑ 동일                                                                                                                                                 |
+| `users-fetcher`       | API 데이터 가져오기 | `src/examples/UsersFetcher.jsx`      | ↑ 동일                                                                                                                                                 |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크만 업데이트하면 됩니다.
 
