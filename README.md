@@ -54,7 +54,7 @@ npm start
 | `lifecycle-log`       | 생명주기 로그      | `src/examples/LifecycleLogDemo.jsx`  | ↑ 동일                                                                                                                                                 |
 | `users-fetcher`       | API 데이터 가져오기 | `src/examples/UsersFetcher.jsx`      | ↑ 동일                                                                                                                                                 |
 
-> 블로그 글이 나중에 추가/변경되면 위 표의 링크만 업데이트하면 됩니다.
+> 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
 ---
 
@@ -85,40 +85,6 @@ react-app/
 ├─ package.json
 └─ README.md
 ```
-
----
-
-## 🔗 블로그에서 “실행/소스 보기” 버튼 넣기 (복사용)
-
-```html
-<p>
-  ▶ 실행하기:
-  <a href="https://<your-id>.github.io/<repo>/?ex=users-fetcher" target="_blank" rel="noopener">
-    UsersFetcher 데모
-  </a>
-  &nbsp;|&nbsp;
-  💾 소스 보기:
-  <a href="https://github.com/<your-id>/<repo>/blob/main/src/examples/UsersFetcher.jsx" target="_blank" rel="noopener">
-    UsersFetcher.jsx
-  </a>
-</p>
-```
-
-> 블로그 각 글 하단에 **실행 링크 + 소스 링크**를 함께 두면 UX/SEO에 모두 유리합니다.
-
----
-
-## 🛠 개발 메모
-
-* **스타일**: `src/App.css` 의 `.container` 로 좌우 여백과 최대 폭만 간단히 지정
-* **라우팅**: 간단히 `URLSearchParams`로 처리. 필요하면 react-router로 확장 가능
-* **코드 스플리팅(선택)**: 예제가 많아지면 `React.lazy`/`Suspense`로 지연 로딩 권장
-* **정적 배포**: GitHub Pages 사용 시
-
-  ```bash
-  npm run build
-  # dist를 gh-pages 브랜치로 배포하거나, gh-pages 패키지를 사용하세요.
-  ```
 
 ---
 
