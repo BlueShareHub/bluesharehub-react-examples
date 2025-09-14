@@ -1,4 +1,4 @@
-# React Examples by BlueShare
+# React Examples by BlueShareHub
 
 리액트 기초\~중급 학습을 위한 **실행 가능한 예제 모음**입니다. 블로그 글과 1:1로 연결되며, URL 쿼리스트링으로 예제를 바로 실행할 수 있습니다.
 
@@ -96,11 +96,11 @@ react-app/
 
 ## 📄 라이선스
 
-MIT License. 자유롭게 학습·연구·재사용하되, 출처(BlueShare)를 남겨주시면 큰 도움이 됩니다 🙏
+MIT License. 자유롭게 학습·연구·재사용하되, 출처(BlueShareHub)를 남겨주시면 큰 도움이 됩니다 🙏
 
 ---
 
-## 🔵 BlueShare
+## 🔵 BlueShareHub
 
 * 메인: [https://bluesharehub.com](https://bluesharehub.com)
 * IT 지식 · IT 공부 · 사이트 운영 · 생활정보
