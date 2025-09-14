@@ -9,6 +9,9 @@ import SubmitExamples from './SubmitExamples';
 import WindowSizeWatcher from './WindowSizeWatcher';
 import LifecycleLogDemo from './LifecycleLogDemo';
 import UsersFetcher from './UsersFetcher';
+import DomControlDemo from './DomControlDemo';
+import InputFocusDemo from './InputFocusDemo';
+import PreviousValueDemo from './PreviousValueDemo';
 
 // slug -> { title, Component }
 export const examples = {
@@ -22,4 +25,7 @@ export const examples = {
   'window-size-watcher':  { title: 'WindowSizeWatcher 예제',     Component: WindowSizeWatcher },
   'lifecycle-log':        { title: 'LifecycleLogDemo 예제',      Component: LifecycleLogDemo },
   'users-fetcher':        { title: 'UsersFetcher 예제',          Component: UsersFetcher },
+  'dom-control':          { title: 'DomControlDemo 예제',        Component: DomControlDemo },
+  'input-focus':          { title: 'InputFocusDemo 예제',        Component: InputFocusDemo },
+  'previous-value':       { title: 'PreviousValueDemo 예제',     Component: PreviousValueDemo },
 };
