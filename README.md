@@ -74,12 +74,15 @@ react-app/
 │  ├─ examples/            # 예제 컴포넌트 모음
 │  │  ├─ ClickExamples.jsx
 │  │  ├─ ChangeExamples.jsx
+│  │  ├─ DomControlDemo.jsx
+│  │  ├─ InputFocusDemo.jsx
 │  │  ├─ SubmitExamples.jsx
 │  │  ├─ WindowSizeWatcher.jsx
 │  │  ├─ LifecycleLogDemo.jsx
 │  │  ├─ UsersFetcher.jsx
 │  │  ├─ JsxPractice.jsx
 │  │  ├─ JsxRules.jsx
+│  │  ├─ PreviousValueDemo.jsx
 │  │  ├─ PropsDemo.jsx
 │  │  └─ StateDemo.jsx
 │  ├─ examples/index.js    # slug → { title, Component } 매핑
