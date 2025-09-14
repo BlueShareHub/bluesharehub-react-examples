@@ -33,6 +33,9 @@ npm start
 * WindowSizeWatcher: `http://localhost:3000/?ex=window-size-watcher`
 * LifecycleLogDemo: `http://localhost:3000/?ex=lifecycle-log`
 * UsersFetcher: `http://localhost:3000/?ex=users-fetcher`
+* DomControlDemo: `http://localhost:3000/?ex=dom-control`
+* InputFocusDemo: `http://localhost:3000/?ex=input-focus`
+* PreviousValueDemo: `http://localhost:3000/?ex=previous-value`
 
 > GitHub Pages로 배포하면 위 URL의 호스트만 바꾸면 됩니다.
 > 예: `https://<your-id>.github.io/<repo>/?ex=users-fetcher`
@@ -41,18 +44,21 @@ npm start
 
 ## 🧭 예제 목록
 
-| 슬러그                   | 제목           | 소스 코드                                | 관련 글                                                                                                                                                 |
-| --------------------- | ------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `jsx-basic`           | JSX 기본 예제    | `src/examples/JsxPractice.jsx`       | [https://bluesharehub.com/react-jsx-basics/](https://bluesharehub.com/react-jsx-basics/)                                                             |
-| `jsx-rules`           | JSX 문법 규칙    | `src/examples/JsxRules.jsx`          | [https://bluesharehub.com/react-jsx-rules/](https://bluesharehub.com/react-jsx-rules/)                                                               |
-| `props-demo`          | props 사용법    | `src/examples/PropsDemo.jsx`         | [https://bluesharehub.com/react-props-usage/](https://bluesharehub.com/react-props-usage/)                                                           |
-| `state-demo`          | state 예제     | `src/examples/StateDemo.jsx`         | [https://bluesharehub.com/react-state-usestate/](https://bluesharehub.com/react-state-usestate/)                                                     |
-| `onclick`             | onClick 예제   | `src/examples/ClickExamples.jsx`     | [https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/](https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/) |
-| `onchange`            | onChange 예제  | `src/examples/ChangeExamples.jsx`    | ↑ 동일                                                                                                                                                 |
-| `onsubmit`            | onSubmit 예제  | `src/examples/SubmitExamples.jsx`    | ↑ 동일                                                                                                                                                 |
-| `window-size-watcher` | 창 크기 추적      | `src/examples/WindowSizeWatcher.jsx` | [https://bluesharehub.com/react-useeffect-dependency-lifecycle/](https://bluesharehub.com/react-useeffect-dependency-lifecycle/)                     |
-| `lifecycle-log`       | 생명주기 로그      | `src/examples/LifecycleLogDemo.jsx`  | ↑ 동일                                                                                                                                                 |
-| `users-fetcher`       | API 데이터 가져오기 | `src/examples/UsersFetcher.jsx`      | ↑ 동일                                                                                                                                                 |
+| 슬러그                   | 제목                  | 소스 코드                                 | 관련 글                                                                                                                                                |
+| ----------------------- | --------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `jsx-basic`             | JSX 기본 예제          | `src/examples/JsxPractice.jsx`            | https://bluesharehub.com/react-jsx-basics/                                                                                                            |
+| `jsx-rules`             | JSX 문법 규칙          | `src/examples/JsxRules.jsx`               | https://bluesharehub.com/react-jsx-rules/                                                                                                             |
+| `props-demo`            | props 사용법           | `src/examples/PropsDemo.jsx`              | https://bluesharehub.com/react-props-usage/                                                                                                           |
+| `state-demo`            | state 예제             | `src/examples/StateDemo.jsx`              | https://bluesharehub.com/react-state-usestate/                                                                                                        |
+| `onclick`               | onClick 예제           | `src/examples/ClickExamples.jsx`          | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/                                                                              |
+| `onchange`              | onChange 예제          | `src/examples/ChangeExamples.jsx`         | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/                                                                              |
+| `onsubmit`              | onSubmit 예제          | `src/examples/SubmitExamples.jsx`         | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/                                                                              |
+| `window-size-watcher`   | 창 크기 추적            | `src/examples/WindowSizeWatcher.jsx`      | https://bluesharehub.com/react-useeffect-dependency-lifecycle/                                                                                        |
+| `lifecycle-log`         | 생명주기 로그           | `src/examples/LifecycleLogDemo.jsx`       | https://bluesharehub.com/react-useeffect-dependency-lifecycle/                                                                                        |
+| `users-fetcher`         | API 데이터 가져오기     | `src/examples/UsersFetcher.jsx`           | https://bluesharehub.com/react-useeffect-dependency-lifecycle/                                                                                        |
+| `dom-control`           | DOM 제어 데모          | `src/examples/DomControlDemo.jsx`         | https://bluesharehub.com/react-useref-usage/                                                                                                          |
+| `input-focus`           | Input 포커스 제어 데모  | `src/examples/InputFocusDemo.jsx`         | https://bluesharehub.com/react-useref-usage/                                                                                                          |
+| `previous-value`        | 이전 값 저장 데모       | `src/examples/PreviousValueDemo.jsx`      | https://bluesharehub.com/react-useref-usage/                                                                                                          |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
