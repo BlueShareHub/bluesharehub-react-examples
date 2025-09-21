@@ -40,9 +40,9 @@ npm start
 * ListBadIndexKey: `http://localhost:3000/?ex=list-bad-index-key`
 * ListStableKey: `http://localhost:3000/?ex=list-stable-key`
 * ListKeyPlacement: `http://localhost:3000/?ex=list-key-placement`
-* CategoryListDemo: `http://localhost:3000/?ex=list-fragment-key`
-* CategoryListDemo: `http://localhost:3000/?ex=counter-with-reducer`
-* CategoryListDemo: `http://localhost:3000/?ex=signup-form-reduce`
+* Fragment key 데모: `http://localhost:3000/?ex=list-fragment-key`
+* CounterWithReducer (useReducer): `http://localhost:3000/?ex=counter-with-reducer`
+* SignupForm (useReducer): `http://localhost:3000/?ex=signup-form-reduce`
 
 ---
 
