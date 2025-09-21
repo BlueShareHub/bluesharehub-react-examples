@@ -46,19 +46,24 @@ npm start
 
 | 슬러그                   | 제목                  | 소스 코드                                 | 관련 글                                                                                                                                                |
 | ----------------------- | --------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `jsx-basic`             | JSX 기본 예제          | `src/examples/JsxPractice.jsx`            | https://bluesharehub.com/react-jsx-basics/                                                                                                            |
-| `jsx-rules`             | JSX 문법 규칙          | `src/examples/JsxRules.jsx`               | https://bluesharehub.com/react-jsx-rules/                                                                                                             |
-| `props-demo`            | props 사용법           | `src/examples/PropsDemo.jsx`              | https://bluesharehub.com/react-props-usage/                                                                                                           |
-| `state-demo`            | state 예제             | `src/examples/StateDemo.jsx`              | https://bluesharehub.com/react-state-usestate/                                                                                                        |
-| `onclick`               | onClick 예제           | `src/examples/ClickExamples.jsx`          | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/                                                                              |
-| `onchange`              | onChange 예제          | `src/examples/ChangeExamples.jsx`         | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/                                                                              |
-| `onsubmit`              | onSubmit 예제          | `src/examples/SubmitExamples.jsx`         | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/                                                                              |
-| `window-size-watcher`   | 창 크기 추적            | `src/examples/WindowSizeWatcher.jsx`      | https://bluesharehub.com/react-useeffect-dependency-lifecycle/                                                                                        |
-| `lifecycle-log`         | 생명주기 로그           | `src/examples/LifecycleLogDemo.jsx`       | https://bluesharehub.com/react-useeffect-dependency-lifecycle/                                                                                        |
-| `users-fetcher`         | API 데이터 가져오기     | `src/examples/UsersFetcher.jsx`           | https://bluesharehub.com/react-useeffect-dependency-lifecycle/                                                                                        |
-| `dom-control`           | DOM 제어 데모          | `src/examples/DomControlDemo.jsx`         | https://bluesharehub.com/react-useref-usage/                                                                                                          |
-| `input-focus`           | Input 포커스 제어 데모  | `src/examples/InputFocusDemo.jsx`         | https://bluesharehub.com/react-useref-usage/                                                                                                          |
-| `previous-value`        | 이전 값 저장 데모       | `src/examples/PreviousValueDemo.jsx`      | https://bluesharehub.com/react-useref-usage/                                                                                                          |
+| `jsx-basic`             | JSX 기본 예제          | `src/examples/JsxPractice.jsx`            | https://bluesharehub.com/react-jsx-basics/            |
+| `jsx-rules`             | JSX 문법 규칙          | `src/examples/JsxRules.jsx`               | https://bluesharehub.com/react-jsx-rules/             |
+| `props-demo`            | props 사용법           | `src/examples/PropsDemo.jsx`              | https://bluesharehub.com react-props-usage/           |
+| `state-demo`            | state 예제             | `src/examples/StateDemo.jsx`              | https://bluesharehub.com/react-state-usestate/        |
+| `onclick`               | onClick 예제           | `src/examples/ClickExamples.jsx`          | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/  |
+| `onchange`              | onChange 예제          | `src/examples/ChangeExamples.jsx`         | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/ |
+| `onsubmit`              | onSubmit 예제          | `src/examples/SubmitExamples.jsx`         | https://bluesharehub.com/react-event-handling-onclick-onchange-onsubmit/   |
+| `window-size-watcher`   | 창 크기 추적            | `src/examples/WindowSizeWatcher.jsx`      | https://bluesharehub.com/react-useeffect-dependency-lifecycle/  |
+| `lifecycle-log`         | 생명주기 로그           | `src/examples/LifecycleLogDemo.jsx`       | https://bluesharehub.com/react-useeffect-dependency-lifecycle/ |
+| `users-fetcher`         | API 데이터 가져오기     | `src/examples/UsersFetcher.jsx`           | https://bluesharehub.com/react-useeffect-dependency-lifecycle/  |
+| `dom-control`           | DOM 제어 데모          | `src/examples/DomControlDemo.jsx`         | https://bluesharehub.com/react-useref-usage/          |
+| `input-focus`           | Input 포커스 제어 데모  | `src/examples/InputFocusDemo.jsx`         | https://bluesharehub.com/react-useref-usage/          |
+| `previous-value`        | 이전 값 저장 데모       | `src/examples/PreviousValueDemo.jsx`      | https://bluesharehub.com/react-useref-usage/         |
+| `list-base`             | BasicList 예제 (map과 key) | `src/examples/ListBase.jsx`            | https://bluesharehub.com/list-base/                  |
+| `list-bad-index-key`    | 안티패턴: 인덱스를 key로 (map과 key)  | `src/examples/ListBadIndexKey.jsx`  | https://bluesharehub.com/list-bad-index-key/  |
+| `list-stable-key`       | 권장: 안정적인 id를 key로 (map과 key) | `src/examples/ListStableKey.jsx`    | https://bluesharehub.com/list-stable-key/     |
+| `list-key-placement`    | key 위치: 부모 map에 key (map과 key)  | `src/examples/ListKeyPlacement.jsx` | https://bluesharehub.com/list-key-placement/  |
+| `list-fragment-key`     | Fragment key 데모       | `src/examples/CategoryListDemo.jsx`      | https://bluesharehub.com/list-fragment-key/            |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -72,6 +77,7 @@ react-app/
 │  └─ index.html           # 필수(루트 #root)
 ├─ src/
 │  ├─ examples/            # 예제 컴포넌트 모음
+│  │  ├─ CategoryListDemo.jsx
 │  │  ├─ ClickExamples.jsx
 │  │  ├─ ChangeExamples.jsx
 │  │  ├─ DomControlDemo.jsx
@@ -79,6 +85,10 @@ react-app/
 │  │  ├─ SubmitExamples.jsx
 │  │  ├─ WindowSizeWatcher.jsx
 │  │  ├─ LifecycleLogDemo.jsx
+│  │  ├─ ListBadIndexKey.jsx
+│  │  ├─ ListBase.jsx
+│  │  ├─ ListKeyPlacement.jsx
+│  │  ├─ ListStableKey.jsx
 │  │  ├─ UsersFetcher.jsx
 │  │  ├─ JsxPractice.jsx
 │  │  ├─ JsxRules.jsx
