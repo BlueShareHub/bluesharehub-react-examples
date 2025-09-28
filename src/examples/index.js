@@ -21,6 +21,8 @@ import CounterWithReducer from './CounterWithReducer';
 import SignupFormReducer from './SignupFormReducer';
 import ExpensiveCalcMemo from './ExpensiveCalcMemo';
 import MemoizedList from './MemoizedList';
+import MemoizedChildWithCallback from './MemoizedChildWithCallback';
+import StaleClosureFix from './StaleClosureFix';
 
 
 // slug -> { title, Component }
@@ -47,4 +49,6 @@ export const examples = {
   'signup-form-reducer':  { title: 'SignupForm (useReducer)',              Component: SignupFormReducer },
   'expensive-calc-memo':  { title: 'ExpensiveCalcMemo (useMemo)',          Component: ExpensiveCalcMemo },
   'memoized-list':        { title: 'MemoizedList (useMemo + React.memo)',  Component: MemoizedList },
+  'memoized-child-with-callback': { title: 'MemoizedChildWithCallback (useCallback + React.memo)',  Component: MemoizedChildWithCallback },
+  'stale-closure-fix':    { title: 'StaleClosureFix (useCallback)',        Component: StaleClosureFix },
 };

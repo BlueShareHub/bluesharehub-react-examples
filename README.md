@@ -45,6 +45,8 @@ npm start
 * SignupForm (useReducer): `http://localhost:3000/?ex=signup-form-reduce`
 * ExpensiveCalcMemo (useMemo): `http://localhost:3000/?ex=expensive-calc-memo`
 * MemoizedList (useMemo + React.memo): `http://localhost:3000/?ex=memoized-list`
+* MemoizedChildWithCallback (useCallback + React.memo): `http://localhost:3000/?ex=memoized-child-with-callback`
+* StaleClosureFix (useCallback): `http://localhost:3000/?ex=stale-closure-fix`
 
 ---
 
@@ -74,6 +76,8 @@ npm start
 | `signup-form-reduce`    | SignupForm (useReducer) | `src/examples/SignupFormReducer.jsx` | https://bluesharehub.com/react-usereducer-vs-usestate-migration/ |
 | `expensive-calc-memo`   | ExpensiveCalcMemo (useMemo) | `src/examples/ExpensiveCalcMemo.jsx` | https://bluesharehub.com/react-usememo-performance/ |
 | `memoized-list`         | MemoizedList (useMemo + React.memo) | `src/examples/MemoizedList.jsx` | https://bluesharehub.com/react-usememo-performance/ |
+| `memoized-child-with-callback` | MemoizedChildWithCallback (useCallback + React.memo) | `src/examples/MemoizedChildWithCallback.jsx` | https://bluesharehub.com/react-usecallback-optimization/ |
+| `stale-closure-fix`     | StaleClosureFix (useCallback) | `src/examples/StaleClosureFix.jsx` | https://bluesharehub.com/react-usecallback-optimization/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
