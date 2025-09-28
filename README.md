@@ -98,21 +98,23 @@ react-app/
 │  │  ├─ DomControlDemo.jsx
 │  │  ├─ ExpensiveCalcMemo.jsx
 │  │  ├─ InputFocusDemo.jsx
-│  │  ├─ SubmitExamples.jsx
-│  │  ├─ WindowSizeWatcher.jsx
+│  │  ├─ JsxPractice.jsx
+│  │  ├─ JsxRules.jsx
 │  │  ├─ LifecycleLogDemo.jsx
 │  │  ├─ ListBadIndexKey.jsx
 │  │  ├─ ListBase.jsx
 │  │  ├─ ListKeyPlacement.jsx
 │  │  ├─ ListStableKey.jsx
+│  │  ├─ MemoizedChildWithCallback.jsx
 │  │  ├─ MemoizedList.jsx
-│  │  ├─ UsersFetcher.jsx
-│  │  ├─ JsxPractice.jsx
-│  │  ├─ JsxRules.jsx
 │  │  ├─ PreviousValueDemo.jsx
 │  │  ├─ PropsDemo.jsx
 │  │  ├─ SignupFormReducer.jsx
-│  │  └─ StateDemo.jsx
+│  │  ├─ StaleClosureFix.jsx
+│  │  ├─ StateDemo.jsx
+│  │  ├─ SubmitExamples.jsx
+│  │  ├─ UsersFetcher.jsx
+│  │  └─ WindowSizeWatcher.jsx
 │  ├─ examples/index.js    # slug → { title, Component } 매핑
 │  ├─ App.js               # ?ex=슬러그 로딩/드롭다운
 │  ├─ App.css              # .container 등 페이지 기본 스타일
