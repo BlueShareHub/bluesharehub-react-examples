@@ -43,6 +43,8 @@ npm start
 * Fragment key 데모: `http://localhost:3000/?ex=list-fragment-key`
 * CounterWithReducer (useReducer): `http://localhost:3000/?ex=counter-with-reducer`
 * SignupForm (useReducer): `http://localhost:3000/?ex=signup-form-reduce`
+* ExpensiveCalcMemo (useMemo): `http://localhost:3000/?ex=expensive-calc-memo`
+* MemoizedList (useMemo + React.memo): `http://localhost:3000/?ex=memoized-list`
 
 ---
 
@@ -70,6 +72,8 @@ npm start
 | `list-fragment-key`     | Fragment key 데모 | `src/examples/CategoryListDemo.jsx` | https://bluesharehub.com/react-list-rendering-map-key/ |
 | `counter-with-reducer`  | CounterWithReducer (useReducer) | `src/examples/CounterWithReducer.jsx` | https://bluesharehub.com/react-usereducer-vs-usestate-migration/ |
 | `signup-form-reduce`    | SignupForm (useReducer) | `src/examples/SignupFormReducer.jsx` | https://bluesharehub.com/react-usereducer-vs-usestate-migration/ |
+| `expensive-calc-memo`   | ExpensiveCalcMemo (useMemo) | `src/examples/ExpensiveCalcMemo.jsx` | https://bluesharehub.com/react-usememo-performance/ |
+| `memoized-list`         | MemoizedList (useMemo + React.memo) | `src/examples/MemoizedList.jsx` | https://bluesharehub.com/react-usememo-performance/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -88,6 +92,7 @@ react-app/
 │  │  ├─ ClickExamples.jsx
 │  │  ├─ CounterWithReducer.jsx
 │  │  ├─ DomControlDemo.jsx
+│  │  ├─ ExpensiveCalcMemo.jsx
 │  │  ├─ InputFocusDemo.jsx
 │  │  ├─ SubmitExamples.jsx
 │  │  ├─ WindowSizeWatcher.jsx
@@ -96,6 +101,7 @@ react-app/
 │  │  ├─ ListBase.jsx
 │  │  ├─ ListKeyPlacement.jsx
 │  │  ├─ ListStableKey.jsx
+│  │  ├─ MemoizedList.jsx
 │  │  ├─ UsersFetcher.jsx
 │  │  ├─ JsxPractice.jsx
 │  │  ├─ JsxRules.jsx

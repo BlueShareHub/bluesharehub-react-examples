@@ -19,6 +19,9 @@ import ListKeyPlacement from './ListKeyPlacement';
 import CategoryListDemo from './CategoryListDemo';
 import CounterWithReducer from './CounterWithReducer';
 import SignupFormReducer from './SignupFormReducer';
+import ExpensiveCalcMemo from './ExpensiveCalcMemo';
+import MemoizedList from './MemoizedList';
+
 
 // slug -> { title, Component }
 export const examples = {
@@ -42,4 +45,6 @@ export const examples = {
   'list-fragment-key':    { title: 'Fragment key 데모',                    Component: CategoryListDemo },
   'counter-with-reducer': { title: 'CounterWithReducer (useReducer)',      Component: CounterWithReducer },
   'signup-form-reducer':  { title: 'SignupForm (useReducer)',              Component: SignupFormReducer },
+  'expensive-calc-memo':  { title: 'ExpensiveCalcMemo (useMemo)',          Component: ExpensiveCalcMemo },
+  'memoized-list':        { title: 'MemoizedList (useMemo + React.memo)',  Component: MemoizedList },
 };
