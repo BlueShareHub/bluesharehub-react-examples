@@ -23,6 +23,8 @@ import ExpensiveCalcMemo from './ExpensiveCalcMemo';
 import MemoizedList from './MemoizedList';
 import MemoizedChildWithCallback from './MemoizedChildWithCallback';
 import StaleClosureFix from './StaleClosureFix';
+import ThemeSwitcherDemo from './ThemeSwitcherDemo';
+import UsersFetcherSafe from './UsersFetcherSafe';
 
 
 // slug -> { title, Component }
@@ -51,4 +53,6 @@ export const examples = {
   'memoized-list':        { title: 'MemoizedList (useMemo + React.memo)',  Component: MemoizedList },
   'memoized-child-with-callback': { title: 'MemoizedChildWithCallback (useCallback + React.memo)',  Component: MemoizedChildWithCallback },
   'stale-closure-fix':    { title: 'StaleClosureFix (useCallback)',        Component: StaleClosureFix },
+  'theme-switcher':       { title: 'useLocalStorage(커스텀 훅) 데모',       Component: ThemeSwitcherDemo },
+  'users-fetcher-safe':   { title: 'useFetch(커스텀 훅) 데모',              Component: UsersFetcherSafe },
 };
