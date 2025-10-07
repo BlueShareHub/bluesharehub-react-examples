@@ -11,7 +11,7 @@ export default function ThemeSwitcherDemo() {
 
   return (
     <div style={styles}>
-      <h3>useLocalStorage 데모</h3>
+      <h3>useLocalStorage(커스텀 훅) 데모</h3>
       <p>현재 테마: <strong>{theme}</strong></p>
       <button onClick={toggle}>테마 토글</button>
       <button onClick={reset} style={{ marginLeft: 8 }}>리셋</button>

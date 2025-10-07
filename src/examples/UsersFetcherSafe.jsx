@@ -8,7 +8,7 @@ export default function UsersFetcherSafe() {
 
   return (
     <div style={{ padding: 12, border: '1px solid #ddd' }}>
-      <h3>useFetch 데모</h3>
+      <h3>useFetch(커스텀 훅) 데모</h3>
       {loading && <p>로딩 중...</p>}
       {error && <p style={{ color: 'crimson' }}>에러: {String(error.message)}</p>}
       {data && (
