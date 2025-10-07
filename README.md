@@ -78,6 +78,8 @@ npm start
 | `memoized-list`         | MemoizedList (useMemo + React.memo) | `src/examples/MemoizedList.jsx` | https://bluesharehub.com/react-usememo-performance/ |
 | `memoized-child-with-callback` | MemoizedChildWithCallback (useCallback + React.memo) | `src/examples/MemoizedChildWithCallback.jsx` | https://bluesharehub.com/react-usecallback-optimization/ |
 | `stale-closure-fix`     | StaleClosureFix (useCallback) | `src/examples/StaleClosureFix.jsx` | https://bluesharehub.com/react-usecallback-optimization/ |
+| `theme-switcher`        | useLocalStorage(커스텀 훅) 데모 | `src/examples/ThemeSwitcherDemo.jsx` | https://bluesharehub.com/react-custom-hooks-uselocalstorage-usefetch/ |
+| `users-fetcher-safe`    | useFetch(커스텀 훅) 데모 | `src/examples/UsersFetcherSafe.jsx` | https://bluesharehub.com/react-custom-hooks-uselocalstorage-usefetch/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -113,8 +115,13 @@ react-app/
 │  │  ├─ StaleClosureFix.jsx
 │  │  ├─ StateDemo.jsx
 │  │  ├─ SubmitExamples.jsx
+│  │  ├─ ThemeSwitcherDemo.jsx
 │  │  ├─ UsersFetcher.jsx
+│  │  ├─ UsersFetcherSafe.jsx
 │  │  └─ WindowSizeWatcher.jsx
+│  ├─ hooks/               # 커스텀 훅
+│  │  ├─ useFetch.js
+│  │  └─ useLocalStorage.js
 │  ├─ examples/index.js    # slug → { title, Component } 매핑
 │  ├─ App.js               # ?ex=슬러그 로딩/드롭다운
 │  ├─ App.css              # .container 등 페이지 기본 스타일
