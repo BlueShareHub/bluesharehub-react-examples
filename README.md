@@ -47,6 +47,8 @@ npm start
 * MemoizedList (useMemo + React.memo): `http://localhost:3000/?ex=memoized-list`
 * MemoizedChildWithCallback (useCallback + React.memo): `http://localhost:3000/?ex=memoized-child-with-callback`
 * StaleClosureFix (useCallback): `http://localhost:3000/?ex=stale-closure-fix`
+* Button (CSS Modules): `http://localhost:3000/?ex=button-css-module`
+* Button (styled-components): `http://localhost:3000/?ex=button-styled`
 
 ---
 
@@ -80,6 +82,8 @@ npm start
 | `stale-closure-fix`     | StaleClosureFix (useCallback) | `src/examples/StaleClosureFix.jsx` | https://bluesharehub.com/react-usecallback-optimization/ |
 | `theme-switcher`        | useLocalStorage(커스텀 훅) 데모 | `src/examples/ThemeSwitcherDemo.jsx` | https://bluesharehub.com/react-custom-hooks-uselocalstorage-usefetch/ |
 | `users-fetcher-safe`    | useFetch(커스텀 훅) 데모 | `src/examples/UsersFetcherSafe.jsx` | https://bluesharehub.com/react-custom-hooks-uselocalstorage-usefetch/ |
+| `button-css-module`     | Button (CSS Modules) | `src/examples/ButtonModuleDemo.jsx` | https://bluesharehub.com/react-css-modules-vs-styled-components/ |
+| `button-styled`         | Button (styled-components) | `src/examples/SButtonDemo.jsx` | https://bluesharehub.com/react-css-modules-vs-styled-components/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -92,7 +96,11 @@ react-app/
 ├─ public/
 │  └─ index.html           # 필수(루트 #root)
 ├─ src/
+│  ├─ components/          # 재사용 가능한 UI 컴포넌트 모음
+│  │  ├─ Button.module.jsx
+│  │  └─ Sbutton.jsx
 │  ├─ examples/            # 예제 컴포넌트 모음
+│  │  ├─ ButtonModuleDemo.jsx
 │  │  ├─ CategoryListDemo.jsx
 │  │  ├─ ChangeExamples.jsx
 │  │  ├─ ClickExamples.jsx
@@ -111,6 +119,7 @@ react-app/
 │  │  ├─ MemoizedList.jsx
 │  │  ├─ PreviousValueDemo.jsx
 │  │  ├─ PropsDemo.jsx
+│  │  ├─ SButtonDemo.jsx
 │  │  ├─ SignupFormReducer.jsx
 │  │  ├─ StaleClosureFix.jsx
 │  │  ├─ StateDemo.jsx
@@ -119,9 +128,11 @@ react-app/
 │  │  ├─ UsersFetcher.jsx
 │  │  ├─ UsersFetcherSafe.jsx
 │  │  └─ WindowSizeWatcher.jsx
-│  ├─ hooks/               # 커스텀 훅
+│  ├─ hooks/               # 재사용 커스텀 훅 모음
 │  │  ├─ useFetch.js
 │  │  └─ useLocalStorage.js
+│  ├─ styles/              # 전역/모듈 CSS 디렉터리
+│  │  └─ Button.module.css
 │  ├─ examples/index.js    # slug → { title, Component } 매핑
 │  ├─ App.js               # ?ex=슬러그 로딩/드롭다운
 │  ├─ App.css              # .container 등 페이지 기본 스타일

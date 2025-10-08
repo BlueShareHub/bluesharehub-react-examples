@@ -25,7 +25,8 @@ import MemoizedChildWithCallback from './MemoizedChildWithCallback';
 import StaleClosureFix from './StaleClosureFix';
 import ThemeSwitcherDemo from './ThemeSwitcherDemo';
 import UsersFetcherSafe from './UsersFetcherSafe';
-
+import ButtonModuleDemo from './ButtonModuleDemo.jsx';
+import SButtonDemo from './SButtonDemo';
 
 // slug -> { title, Component }
 export const examples = {
@@ -55,4 +56,6 @@ export const examples = {
   'stale-closure-fix':    { title: 'StaleClosureFix (useCallback)',        Component: StaleClosureFix },
   'theme-switcher':       { title: 'useLocalStorage(커스텀 훅) 데모',       Component: ThemeSwitcherDemo },
   'users-fetcher-safe':   { title: 'useFetch(커스텀 훅) 데모',              Component: UsersFetcherSafe },
+  'button-css-module':    { title: 'Button (CSS Modules)',                 Component: ButtonModuleDemo },
+  'button-styled':        { title: 'Button (styled-components)',           Component: SButtonDemo },  
 };
