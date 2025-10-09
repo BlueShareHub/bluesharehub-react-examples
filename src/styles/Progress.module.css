@@ -1,0 +1,12 @@
+.track {
+  height: 8px;
+  border-radius: 6px;
+  background: #e5e7eb; /* gray-200 */
+  overflow: hidden;
+}
+
+.fill {
+  height: 8px;
+  border-radius: 6px;
+  background: #2563eb; /* blue-600 */
+}

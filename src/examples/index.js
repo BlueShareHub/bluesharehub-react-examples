@@ -27,6 +27,8 @@ import ThemeSwitcherDemo from './ThemeSwitcherDemo';
 import UsersFetcherSafe from './UsersFetcherSafe';
 import ButtonModuleDemo from './ButtonModuleDemo.jsx';
 import SButtonDemo from './SButtonDemo';
+import ProgressDemo from './ProgressDemo';
+import CssModulesDemo from './CssModulesDemo';
 
 // slug -> { title, Component }
 export const examples = {
@@ -57,5 +59,7 @@ export const examples = {
   'theme-switcher':       { title: 'useLocalStorage(커스텀 훅) 데모',       Component: ThemeSwitcherDemo },
   'users-fetcher-safe':   { title: 'useFetch(커스텀 훅) 데모',              Component: UsersFetcherSafe },
   'button-css-module':    { title: 'Button (CSS Modules)',                 Component: ButtonModuleDemo },
-  'button-styled':        { title: 'Button (styled-components)',           Component: SButtonDemo },  
+  'button-styled':        { title: 'Button (styled-components)',           Component: SButtonDemo },
+  'progress-demo':        { title: 'Progress (인라인 vs 외부 스타일)',      Component: ProgressDemo },
+  'css-modules-demo':     { title: 'CSS Modules 데모',                     Component: CssModulesDemo },
 };

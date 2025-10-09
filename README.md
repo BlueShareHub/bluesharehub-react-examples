@@ -49,6 +49,8 @@ npm start
 * StaleClosureFix (useCallback): `http://localhost:3000/?ex=stale-closure-fix`
 * Button (CSS Modules): `http://localhost:3000/?ex=button-css-module`
 * Button (styled-components): `http://localhost:3000/?ex=button-styled`
+* Progress (인라인 vs 외부 스타일) : `http://localhost:3000/?ex=progress-demo`
+* CSS Modules 데모 : `http://localhost:3000/?ex=css-modules-demo`
 
 ---
 
@@ -84,6 +86,8 @@ npm start
 | `users-fetcher-safe`    | useFetch(커스텀 훅) 데모 | `src/examples/UsersFetcherSafe.jsx` | https://bluesharehub.com/react-custom-hooks-uselocalstorage-usefetch/ |
 | `button-css-module`     | Button (CSS Modules) | `src/examples/ButtonModuleDemo.jsx` | https://bluesharehub.com/react-css-modules-vs-styled-components/ |
 | `button-styled`         | Button (styled-components) | `src/examples/SButtonDemo.jsx` | https://bluesharehub.com/react-css-modules-vs-styled-components/ |
+| `progress-demo`         | Progress (인라인 vs 외부 스타일) | `src/examples/ProgressDemo.jsx` | https://bluesharehub.com/react-inline-style-vs-external-style/ |
+| `css-modules-demo`      | CSS Modules 데모 | `src/examples/CssModulesDemo.jsx` | https://bluesharehub.com/react-inline-style-vs-external-style/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -98,6 +102,7 @@ react-app/
 ├─ src/
 │  ├─ components/          # 재사용 가능한 UI 컴포넌트 모음
 │  │  ├─ Button.module.jsx
+│  │  ├─ Progress.jsx
 │  │  └─ Sbutton.jsx
 │  ├─ examples/            # 예제 컴포넌트 모음
 │  │  ├─ ButtonModuleDemo.jsx
@@ -105,6 +110,7 @@ react-app/
 │  │  ├─ ChangeExamples.jsx
 │  │  ├─ ClickExamples.jsx
 │  │  ├─ CounterWithReducer.jsx
+│  │  ├─ CssModulesDemo.jsx
 │  │  ├─ DomControlDemo.jsx
 │  │  ├─ ExpensiveCalcMemo.jsx
 │  │  ├─ InputFocusDemo.jsx
@@ -118,6 +124,7 @@ react-app/
 │  │  ├─ MemoizedChildWithCallback.jsx
 │  │  ├─ MemoizedList.jsx
 │  │  ├─ PreviousValueDemo.jsx
+│  │  ├─ ProgressDemo.jsx
 │  │  ├─ PropsDemo.jsx
 │  │  ├─ SButtonDemo.jsx
 │  │  ├─ SignupFormReducer.jsx
@@ -132,7 +139,9 @@ react-app/
 │  │  ├─ useFetch.js
 │  │  └─ useLocalStorage.js
 │  ├─ styles/              # 전역/모듈 CSS 디렉터리
-│  │  └─ Button.module.css
+│  │  ├─ Button.module.css
+│  │  ├─ Progress.module.css
+│  │  └─ UiDemo.module.css
 │  ├─ examples/index.js    # slug → { title, Component } 매핑
 │  ├─ App.js               # ?ex=슬러그 로딩/드롭다운
 │  ├─ App.css              # .container 등 페이지 기본 스타일

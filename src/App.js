@@ -16,13 +16,14 @@ function App() {
       {/* 드롭다운(선택 시 URL 갱신) */}
       <label>예제 선택: </label>
       <select
+        style={{ height: 30, padding: '0 8px', boxSizing: 'border-box' }}
         value={slug}
         onChange={(e) => {
           const s = e.target.value;
           const url = new URL(window.location.href);
           url.searchParams.set('ex', s);
           window.history.pushState({}, '', url);
-          window.location.reload(); // 간단히 새로고침(원하면 상태로만 교체 가능)
+          window.location.reload();
         }}
       >
         {Object.entries(examples).map(([key, value]) => (
