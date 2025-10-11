@@ -29,6 +29,7 @@ import ButtonModuleDemo from './ButtonModuleDemo.jsx';
 import SButtonDemo from './SButtonDemo';
 import ProgressDemo from './ProgressDemo';
 import CssModulesDemo from './CssModulesDemo';
+import ContextThemeDemo from './ContextThemeDemo';
 
 // slug -> { title, Component }
 export const examples = {
@@ -62,4 +63,5 @@ export const examples = {
   'button-styled':        { title: 'Button (styled-components)',           Component: SButtonDemo },
   'progress-demo':        { title: 'Progress (인라인 vs 외부 스타일)',      Component: ProgressDemo },
   'css-modules-demo':     { title: 'CSS Modules 데모',                     Component: CssModulesDemo },
+  'context-theme-demo':   { title: 'Context API: Theme 전역 관리',         Component: ContextThemeDemo },
 };

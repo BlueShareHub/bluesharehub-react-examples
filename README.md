@@ -51,6 +51,7 @@ npm start
 * Button (styled-components): `http://localhost:3000/?ex=button-styled`
 * Progress (인라인 vs 외부 스타일) : `http://localhost:3000/?ex=progress-demo`
 * CSS Modules 데모 : `http://localhost:3000/?ex=css-modules-demo`
+* Context API: Theme 전역 관리 : `http://localhost:3000/?ex=context-theme-demo`
 
 ---
 
@@ -88,6 +89,7 @@ npm start
 | `button-styled`         | Button (styled-components) | `src/examples/SButtonDemo.jsx` | https://bluesharehub.com/react-css-modules-vs-styled-components/ |
 | `progress-demo`         | Progress (인라인 vs 외부 스타일) | `src/examples/ProgressDemo.jsx` | https://bluesharehub.com/react-inline-style-vs-external-style/ |
 | `css-modules-demo`      | CSS Modules 데모 | `src/examples/CssModulesDemo.jsx` | https://bluesharehub.com/react-inline-style-vs-external-style/ |
+| `context-theme-demo`    | Context API: Theme 전역 관리 | `src/examples/ContextThemeDemo.jsx` | https://bluesharehub.com/react-context-api-global-state/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -102,13 +104,17 @@ react-app/
 ├─ src/
 │  ├─ components/          # 재사용 가능한 UI 컴포넌트 모음
 │  │  ├─ Button.module.jsx
+│  │  ├─ Header.jsx
 │  │  ├─ Progress.jsx
 │  │  └─ Sbutton.jsx
+│  ├─ context/             # 전역 상태·설정을 위한 React Context 모음
+│  │  └─ theme.js
 │  ├─ examples/            # 예제 컴포넌트 모음
 │  │  ├─ ButtonModuleDemo.jsx
 │  │  ├─ CategoryListDemo.jsx
 │  │  ├─ ChangeExamples.jsx
 │  │  ├─ ClickExamples.jsx
+│  │  ├─ ContextThemeDemo.jsx
 │  │  ├─ CounterWithReducer.jsx
 │  │  ├─ CssModulesDemo.jsx
 │  │  ├─ DomControlDemo.jsx
