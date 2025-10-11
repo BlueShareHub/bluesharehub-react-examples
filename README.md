@@ -52,6 +52,7 @@ npm start
 * Progress (인라인 vs 외부 스타일) : `http://localhost:3000/?ex=progress-demo`
 * CSS Modules 데모 : `http://localhost:3000/?ex=css-modules-demo`
 * Context API: Theme 전역 관리 : `http://localhost:3000/?ex=context-theme-demo`
+* UsersAxiosBasic (axios) : `http://localhost:3000/?ex=users-axios-basic`
 
 ---
 
@@ -90,6 +91,7 @@ npm start
 | `progress-demo`         | Progress (인라인 vs 외부 스타일) | `src/examples/ProgressDemo.jsx` | https://bluesharehub.com/react-inline-style-vs-external-style/ |
 | `css-modules-demo`      | CSS Modules 데모 | `src/examples/CssModulesDemo.jsx` | https://bluesharehub.com/react-inline-style-vs-external-style/ |
 | `context-theme-demo`    | Context API: Theme 전역 관리 | `src/examples/ContextThemeDemo.jsx` | https://bluesharehub.com/react-context-api-global-state/ |
+| `users-axios-basic`     | UsersAxiosBasic (axios) | `src/examples/UsersAxiosBasic.jsx` | https://bluesharehub.com/react-axios-api-fetching/ |
 
 > 블로그 글이 나중에 추가/변경되면 위 표의 링크도 같이 업데이트 됩니다.
 
@@ -138,12 +140,15 @@ react-app/
 │  │  ├─ StateDemo.jsx
 │  │  ├─ SubmitExamples.jsx
 │  │  ├─ ThemeSwitcherDemo.jsx
+│  │  ├─ UsersAxiosBasic.jsx
 │  │  ├─ UsersFetcher.jsx
 │  │  ├─ UsersFetcherSafe.jsx
 │  │  └─ WindowSizeWatcher.jsx
 │  ├─ hooks/               # 재사용 커스텀 훅 모음
 │  │  ├─ useFetch.js
 │  │  └─ useLocalStorage.js
+│  ├─ lib/                 # 공통 라이브러리 모음(axios 인스턴스, 유틸 함수 등 재사용 가능 로직)
+│  │  └─ http.js
 │  ├─ styles/              # 전역/모듈 CSS 디렉터리
 │  │  ├─ Button.module.css
 │  │  ├─ Progress.module.css

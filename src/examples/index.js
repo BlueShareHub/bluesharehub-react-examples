@@ -30,6 +30,7 @@ import SButtonDemo from './SButtonDemo';
 import ProgressDemo from './ProgressDemo';
 import CssModulesDemo from './CssModulesDemo';
 import ContextThemeDemo from './ContextThemeDemo';
+import UsersAxiosBasic from './UsersAxiosBasic';
 
 // slug -> { title, Component }
 export const examples = {
@@ -64,4 +65,5 @@ export const examples = {
   'progress-demo':        { title: 'Progress (인라인 vs 외부 스타일)',      Component: ProgressDemo },
   'css-modules-demo':     { title: 'CSS Modules 데모',                     Component: CssModulesDemo },
   'context-theme-demo':   { title: 'Context API: Theme 전역 관리',         Component: ContextThemeDemo },
+  'users-axios-basic':    { title: 'UsersAxiosBasic (axios)',              Component: UsersAxiosBasic },
 };
