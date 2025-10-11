@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bluesharehub-react-examples/static/css/main.395bb7cb.css",
-    "main.js": "/bluesharehub-react-examples/static/js/main.9e5ad0fa.js",
+    "main.js": "/bluesharehub-react-examples/static/js/main.13d40cfa.js",
     "index.html": "/bluesharehub-react-examples/index.html",
     "main.395bb7cb.css.map": "/bluesharehub-react-examples/static/css/main.395bb7cb.css.map",
-    "main.9e5ad0fa.js.map": "/bluesharehub-react-examples/static/js/main.9e5ad0fa.js.map"
+    "main.13d40cfa.js.map": "/bluesharehub-react-examples/static/js/main.13d40cfa.js.map"
   },
   "entrypoints": [
     "static/css/main.395bb7cb.css",
-    "static/js/main.9e5ad0fa.js"
+    "static/js/main.13d40cfa.js"
   ]
 }
